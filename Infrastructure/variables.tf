@@ -4,7 +4,7 @@
 variable "aws_profile" {
   description = "The profile name that you have configured in the file .aws/credentials"
   type        = string
-  default = "GauravRaturi"
+  default = "ShivaniSaini"
 }
 
 variable "aws_region" {
@@ -84,13 +84,13 @@ variable "iam_role_name" {
 variable "repository_owner" {
   description = "The name of the owner of the Github repository"
   type        = string
-  default = "GauravRaturi"
+  default = "shivani3495"
 }
 
 variable "repository_name" {
   description = "The name of the Github repository"
   type        = string
-  default = "Pipeline-load-as"
+  default = "autoloadec2"
 }
 
 variable "repository_branch" {
